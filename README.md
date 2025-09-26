@@ -21,7 +21,7 @@ The architecture also includes a scoreboard and coverage collector. The scoreboa
 Finally, the environment ties these components together. It instantiates the master agent (active), the two slave interfaces (each with a passive monitor and optionally an active responder), the scoreboard, and the coverage collector. The connections are established through analysis ports so that all observed transactions flow into the checking and coverage components. This modular setup ensures a thorough verification of the APB protocol implementation with multiple slaves, covering both functional correctness and protocol compliance.
 
 #### USING THE MAKEFILE  
-make c → Compile design files
-make s → Run simulation without coverage
-make cov → Run simulation with coverage and generate HTML report
-make clean → Remove compiled libraries and reset workspace
+make c → Compile design files  
+make s → Run simulation without coverage  
+make cov → Run simulation with coverage and generate HTML report  
+make clean → Remove compiled libraries and reset workspace  
